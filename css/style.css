@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@350&display=swap');
+
+html, body{
+    padding: 0;
+    margin: 0;
+    background-color: #F0E68C;
+    font-family: "Noto Sans JP", sans-serif;
+    height: 100%;
+    color: rgb(49, 49, 93);
+    user-select: none;
+}
+
+header {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+.line1, .line2 {
+    margin: 0 15%;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.notepc, .earphone, .smart-phone, .test2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 25px;
+    background: rgb(255,239,134);
+    background: linear-gradient(0deg, #D8BFD8 95%, rgba(176,224,230,1) 100%);
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.2s;
+}
+
+.notepc:hover, .earphone:hover, .smart-phone:hover, .test2:hover {
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease;
+}
