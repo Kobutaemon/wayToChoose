@@ -5,19 +5,16 @@ html, body{
     margin: 0;
     background-color: #F0E68C;
     font-family: "Noto Sans JP", sans-serif;
-    height: 100%;
     color: rgb(49, 49, 93);
 }
 
-header {
-    height: 30vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header h1 {
+    text-align: center;
+    font-size: 50px;
 }
 
-header h1 {
-    font-size: 50px;
+.kakakucom {
+    width: 40%;
 }
 
 main {
@@ -33,7 +30,7 @@ main {
     align-items: center;
 }
 
-.kakakucom, .cpuPassmark {
+.cpuPassmark {
     width: 80%;
 }
 
@@ -46,7 +43,6 @@ hr {
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .maker, .cpu {
